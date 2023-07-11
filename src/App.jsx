@@ -158,7 +158,9 @@ function App() {
           />
           {yearError && <p className="error-message">Must be in the past</p>}
         </form>
+
         <button onClick={ageStored ? restartor : clickHandler}>
+          {/* you need to add base respository name in the front to access the file, very important */}
           <img src="/age-calculator/images/icon-arrow.svg" alt="" />
         </button>
       </div>
