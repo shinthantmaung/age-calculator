@@ -159,7 +159,7 @@ function App() {
           {yearError && <p className="error-message">Must be in the past</p>}
         </form>
         <button onClick={ageStored ? restartor : clickHandler}>
-          <img src="/images/icon-arrow.svg" alt="" />
+          <img src="/age-calculator/images/icon-arrow.svg" alt="" />
         </button>
       </div>
       <h2 className="answer"><span>{ageStored ? age.year : "- -"}</span> years</h2>
